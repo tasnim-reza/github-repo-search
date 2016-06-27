@@ -2,7 +2,9 @@
 
 ## Installation
 You have to pre-installed node and npm. Run the following commands
-npm preinstall (it will install a light weight node server)
+
+npm run preinstall (it will install a light weight node server)
+
 npm install
 
 ## How to run
