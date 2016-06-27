@@ -10,7 +10,7 @@ npm install
 ## How to run
 To run the project : npm start
 
-Now hit the url: [http://localhost:8080/src/#/home]http://localhost:8080/src/#/home
+Now hit the url: [http://localhost:8080/src/#/home](http://localhost:8080/src/#/home)
 
 Note: If you open http://localhost:8080 you will see a directory list.
 From that list you have to clikc src folder. Didn't integrate any
