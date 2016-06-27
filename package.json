@@ -1,0 +1,31 @@
+{
+  "name": "GoEuroFrontendTest",
+  "version": "0.0.1",
+  "description": "GoEuro Frontend test",
+  "authors": [
+    "Reza"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "preinstall": "npm install -g http-server",
+    "init": "npm install",
+    "start": "http-server",    
+    "test": "karma start karma.conf.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "^1.5.7",
+    "angular-route": "^1.5.7",
+    "angular-mocks": "^1.5.7",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.0.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-cli": "^1.0.0",
+    "karma-jasmine": "^1.0.2"
+  }
+}

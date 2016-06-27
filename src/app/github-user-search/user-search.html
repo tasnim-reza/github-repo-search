@@ -1,0 +1,15 @@
+<h2 class="page-title" ng-bind="vm.title"></h1>
+<div class="search-box">
+    <input placeholder="Type GitHub User name.."
+    ng-model="vm.searchText"
+    class="search-text" />
+    <button class="button" ng-click="vm.searchText && vm.onSearch()">Search</button>
+</div>
+<hr/>
+<div class="error" ng-show="vm.errorMessage" ng-bind="vm.errorMessage"></div>
+<div class="notification" ng-show="vm.notificationMessage" ng-bind="vm.notificationMessage"></div>
+<ul>
+    <li ng-repeat="repo in vm.userRepositories">
+        <a href="{{repo.url}}" title="{{repo.description}}" target="_blank">{{repo.name}}</a>
+    </li>
+</ul>

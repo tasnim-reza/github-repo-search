@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html data-ng-app="app" ng-strict-di>
+<head>
+    <meta charset="utf-8" />
+    <title>GoEuro Test</title>
+    <link rel="shortcut icon" href="content/img/favicon.ico" />
+    <link href="content/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header">
+        <h1>
+            <span class="c-name">GoEuro</span>
+            <span class="t-name">Front-end Test</span>                    
+        </h1>
+        <div class="loader" ng-show="hasBusyScreen">Loading...</div>
+    </header>
+    <section id="view" ng-view> 
+    </section>
+    <footer>
+        <p class="copy-right">&copy; 2016 Reza </p>
+    </footer>
+    
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="../node_modules/angular-route/angular-route.js"></script>
+    
+    <script src="app/core/core.module.js"></script>    
+    <script src="app/core/constant.js"></script>    
+    <script src="app/core/route.config.js"></script>
+    
+    <script src="app/github-user-search/github-user-search.module.js"></script>
+    <script src="app/github-user-search/user-search.controller.js"></script>
+    <script src="app/github-user-search/user-search.service.js"></script>
+    <script src="app/layout/shell.module.js"></script>
+    
+    <script src="app.module.js"></script>
+</body>
+</html>
